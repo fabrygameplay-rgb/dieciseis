@@ -503,4 +503,12 @@ textarea {
         padding: 0px 4px;
         width: 60px;
     }
+
+    #lastSectionId {
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+    }
 }
