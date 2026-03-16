@@ -312,9 +312,9 @@ azuredreams: {
     page: "indexGameBoyColor.html"
 },
 
-spaceinvaders: {
-    name: "Space Invaders (Game Boy Color)",
-    description: "Defend Earth from waves of alien invaders in this legendary arcade shooter.",
+perfectdark: {
+    name: "Perfect Dark (Game Boy Color)",
+    description: "It tells the story of Joanna Dark's beginnings as an agent of the Carrington Institute, who must investigate and sabotage the illegal activities of the rival corporation dataDyne in seven action-packed and stealthy missions.",
     page: "indexGameBoyColor.html"
 },
 
