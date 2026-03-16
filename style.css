@@ -435,7 +435,7 @@ textarea {
         gap: 0px;
         background-color: bisque;
         align-items: center;
-        font-size: 12px;
+        font-size: 13px;
         overflow-y: auto;
     }
 
@@ -468,6 +468,43 @@ textarea {
 
     .interfaceBar a:hover {
         cursor: pointer;
+    }
+
+    #exploreGrid {
+        display: block;
+    }
+
+    #exploreFlex1 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+
+    #exploreFlex1 h2 {
+        font-size: 14px;
+    } 
+    
+    #exploreFlex1 p {
+        font-size: 12px;
+        min-width: 0;
+        height: auto;
+    }
+
+    #exploreFlex2 img {
+        width: 100%;
+        max-width: 190px;
+        height: 100%;
+        max-height: 190px;
+    }
+
+    #exploreFlex3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 150px;
     }
 
     .gridGames1, .gridGames2 {
@@ -505,13 +542,90 @@ textarea {
     }
 
     #lastSectionId {
+        display: flex;
+        flex-wrap: wrap;
         padding-left: 10px;
+        padding-right: 10px;
         margin-left: 0px;
         margin-right: 0px;
         overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #lastSectionId h2 {
+        font-size: 15px;
     }
 
     #lastSectionId p {
         font-size: 12px;
+    }
+
+    .contact-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #support h3 {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    #support p {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-container ul li {
+        justify-content: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .values {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    ol {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    ol li {
+        font-size: 12px;
+    }
+
+    #complaints .complaint-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #complaints .complaint-form-left label {
+        font-size: 13px;
+    }
+
+    #borderDouble, #formContent1 {
+        width: 96%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #formContent2 {
+        width: 90%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #formContent1 h1, #formContent2 h1 {
+        font-size: 14px;
+    }
+
+    #formContent1 h2, #formContent2 h2 {
+        font-size: 13px ;
     }
 }

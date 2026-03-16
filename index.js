@@ -326,6 +326,19 @@ dragonquest3: {
     
 };
 
+const linkGBC = document.querySelector('a[href="indexGameBoyColor.html"]');
+
+    function ajustarTexto() {
+        if (window.matchMedia("(max-width: 480px)").matches) {
+            linkGBC.textContent = "GB Color";
+        } else {
+            linkGBC.textContent = "Game Boy Color";
+        }
+    }
+
+ajustarTexto();
+window.addEventListener("resize", ajustarTexto);
+
 const cursor = document.querySelectorAll(".game");
 const button1 = document.querySelectorAll(".btn1");
 const button2 = document.querySelectorAll(".btn2");
@@ -473,6 +486,30 @@ resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
 resultsBox.style.display = "none";
 resultsBox.style.zIndex = "9999";
+
+
+const mediaCelular = window.matchMedia("(max-width: 480px)");
+
+function ajustarInput(e) {
+
+    if (e.matches) {
+        inputSearcher.style.width = "90px";
+        inputSearcher.style.fontSize = "9px";
+        inputSearcher.style.marginLeft = "10px";
+        resultsBox.style.width = "150px";
+        resultsBox.style.left = "-10px";
+    } 
+    
+    else {
+        inputSearcher.style.width = "140px";
+        resultsBox.style.width = "200px";
+        resultsBox.style.left = "-30px";
+    }
+
+}
+
+ajustarInput(mediaCelular);
+mediaCelular.addEventListener("change", ajustarInput);
 
 searcher.appendChild(inputSearcher);
 searcher.appendChild(resultsBox);
