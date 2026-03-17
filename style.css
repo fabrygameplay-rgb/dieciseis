@@ -731,10 +731,15 @@ textarea {
 
     .find {
         position: relative;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-right: 80px;
         padding-left: 10px;
         padding-right: 20px;
+    }
+
+    .find input {
+        margin-left: 40px;
+        margin-right: 80px;
     }
 
     .interfaceBar p {
