@@ -509,47 +509,40 @@ resultsBox.style.display = "none";
 resultsBox.style.zIndex = "9999";
 
 
-const mediaCelular = window.matchMedia("(max-width: 480px)");
+const mediaPortrait = window.matchMedia("(max-width: 480px) and (orientation: portrait)");
+const mediaLandscape = window.matchMedia("(max-width: 480px) and (orientation: landscape)");
 
-function ajustarInput(e) {
+function ajustarInput() {
 
-    if (e.matches) {
-        inputSearcher.style.width = "90px";
+    if (mediaLandscape.matches) {
+
+        inputSearcher.style.width = "80px";
         inputSearcher.style.fontSize = "9px";
+        inputSearcher.style.marginLeft = "5px";
+
+        resultsBox.style.width = "130px";
+        resultsBox.style.left = "-5px";
+
+    } 
+    
+    else if (mediaPortrait.matches) {
+
+        inputSearcher.style.width = "100px";
+        inputSearcher.style.fontSize = "10px";
         inputSearcher.style.marginLeft = "10px";
+
         resultsBox.style.width = "150px";
         resultsBox.style.left = "-10px";
     } 
     
     else {
+
         inputSearcher.style.width = "140px";
         resultsBox.style.width = "200px";
         resultsBox.style.left = "-30px";
     }
 
 }
-
-ajustarInput(mediaCelular);
-mediaCelular.addEventListener("change", ajustarInput);
-
-searcher.appendChild(inputSearcher);
-searcher.appendChild(resultsBox);
-
-searcher.addEventListener("click", (e) => {
-    e.stopPropagation();
-    inputSearcher.style.display = "block";
-    inputSearcher.focus();
-});
-
-document.addEventListener("click", (e) => {
-
-    if (!searcher.contains(e.target)) {
-        inputSearcher.style.display = "none";
-        inputSearcher.value = "";
-        resultsBox.style.display = "none";
-    }
-
-});
 
 inputSearcher.addEventListener("input", () => {
 
