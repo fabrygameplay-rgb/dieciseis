@@ -508,12 +508,13 @@ resultsBox.style.border = "1px solid black";
 resultsBox.style.display = "none";
 resultsBox.style.zIndex = "9999";
 
-
-const mediaCelular = window.matchMedia("(max-width: 480px)");
+const mediaPortrait = window.matchMedia("(max-width: 480px) and (orientation: portrait)");
+const mediaLandscape = window.matchMedia("(max-width: 480px) and (orientation: landscape)");
 
 function ajustarInput(e) {
 
-    if (e.matches) {
+    if (mediaPortrait.e.matches) {
+        
         inputSearcher.style.width = "95px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "10px";
@@ -521,10 +522,13 @@ function ajustarInput(e) {
         resultsBox.style.left = "-10px";
     } 
     
-    else {
-        inputSearcher.style.width = "140px";
-        resultsBox.style.width = "200px";
-        resultsBox.style.left = "-30px";
+    else if (mediaLandscape.e.matches) {
+
+        inputSearcher.style.width = "95px";
+        inputSearcher.style.fontSize = "9px";
+        inputSearcher.style.marginLeft = "10px";
+        resultsBox.style.width = "150px";
+        resultsBox.style.left = "-10px";
     }
 
 }
