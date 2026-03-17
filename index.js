@@ -314,7 +314,7 @@ azuredreams: {
 
 perfectdark: {
     name: "Perfect Dark (Game Boy Color)",
-    description: "It tells the story of Joanna Dark's beginnings as an agent of the Carrington Institute, who must investigate and sabotage the illegal activities of the rival corporation dataDyne in seven action-packed and stealthy missions.",
+    description: "Joanna Dark begins her career as a Carrington Institute agent, investigating and sabotaging dataDyne across seven stealth-action missions.",
     page: "indexGameBoyColor.html"
 },
 
