@@ -439,7 +439,13 @@ function showSinopsis() {
 
             if (!info) return;
 
-            overlay.textContent = info.description;
+            const content = document.createElement("div");
+            content.classList.add("overlayContent");
+
+            content.textContent = info.description;
+
+            overlay.innerHTML = "";
+            overlay.appendChild(content);
             overlay.style.opacity = "1";
 
             if (img) img.style.opacity = "0";

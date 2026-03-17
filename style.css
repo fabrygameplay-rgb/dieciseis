@@ -253,7 +253,6 @@ button:hover {
     padding: 5px 15px;
     overflow-y: auto;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
 }
 
 .game.showDescription img {
@@ -805,10 +804,9 @@ textarea {
         text-align: center;            
         overflow-y: auto;
         max-height: 160px;
-        -webkit-overflow-scrolling: touch;
+        font-size: 12px;
+        line-height: 1.15;
+        padding: 8px; 
     }
-
-    .overlayContent {
-        min-height: max-content;
-    }
+    
 }
