@@ -417,6 +417,21 @@ function showSinopsis() {
 
         const img = game.querySelector("img");
 
+        function ajustarOverlay() {
+            const rect = img.getBoundingClientRect();
+            const parentRect = game.getBoundingClientRect();
+
+            overlay.style.width = rect.width + "px";
+            overlay.style.height = rect.height + "px";
+
+            overlay.style.top = (img.offsetTop) + "px";
+            overlay.style.left = (img.offsetLeft) + "px";
+        }
+
+        window.addEventListener("load", ajustarOverlay);
+
+        window.addEventListener("resize", ajustarOverlay);
+
         game.addEventListener("mouseenter", () => {
 
             const name = game.dataset.game;

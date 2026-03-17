@@ -209,6 +209,7 @@ footer {
 .buttons {
     margin-bottom: 15px;
 }
+
 button {
     border-radius: 8px;
     border: double yellowgreen 1px;
@@ -235,9 +236,8 @@ button:hover {
 .sinopsisOverlay {
 
     position: absolute;
-    top: 10px;
-    left: 24px;
-
+    top: 2.4%;
+    left: 7%;
     width: 300px;
     height: 300px;
 
@@ -248,13 +248,14 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    padding: 15px;
     box-sizing: border-box;
 
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
+
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .game.showDescription img {
@@ -672,6 +673,44 @@ textarea {
     #formContent1 h2, #formContent2 h2 {
         font-size: 13px ;
     }
+
+    .sinopsisOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        max-height: 300px;
+
+        background-color: rgba(0,0,0,0.85);
+        color: white;
+
+        display: flex;
+        flex-direction: column; 
+
+        justify-content: center; 
+        align-items: center;
+
+        padding: 15px;
+        box-sizing: border-box;
+
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .game.showDescription img {
+        opacity: 0;
+    }
+
+    .game.showDescription .sinopsisOverlay {
+        opacity: 1;
+    }
 }
 
 @media (max-height: 480px) and (orientation: landscape) {
@@ -720,18 +759,42 @@ textarea {
         display: grid;
         grid-template-columns: repeat (3, 1fr);
         grid-template-rows: repeat (3, 1fr);
+        gap: 5px;
     }
 
     .gridGames1 img {
         width: 100%;
-        max-width: 140px;
+        max-width: 180px;
         height: 100%;
-        max-height: 120px;
+        max-height: 160px;
     }
 
     section ul {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 5px;
+    }
+
+    section {
+        gap: 0px;
+    }
+
+    section .ul1, section .ul2 {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+    }
+
+    section .ul1 {
+        margin-right: 3px;
+    }
+
+    section .ul2 {
+        margin-left: 3px;
+    }
+
+    .ul1 a, .ul2 a {
+        padding: 0px 4px;
+        width: 60px;
     }
 }
