@@ -254,6 +254,8 @@ button:hover {
     transition: opacity 0.3s ease;
     pointer-events: none;
 
+    padding: 5px 15px;
+
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -702,6 +704,7 @@ textarea {
 
         overflow-y: auto;
         overflow-x: hidden;
+        box-sizing: border-box;
     }
 
     .game.showDescription img {
@@ -796,5 +799,13 @@ textarea {
     .ul1 a, .ul2 a {
         padding: 0px 4px;
         width: 60px;
+    }
+
+    .sinopsisOverlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;  
+        align-items: flex-start;      
+        overflow-y: auto;
     }
 }
