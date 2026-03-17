@@ -510,6 +510,7 @@ textarea {
         width: 100%;
         max-width: 150px;
         height: auto;
+        padding-left: 15px;
     }
 
     #exploreFlex2 hr {
