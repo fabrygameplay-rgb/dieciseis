@@ -780,10 +780,16 @@ textarea {
         max-height: 260px;
     }
 
+    hr {
+        width: 100%;
+        height: 1px;
+        align-self: stretch;
+    }
+
     .gridGames1 {
         display: grid;
-        grid-template-columns: repeat (3, 1fr);
-        grid-template-rows: repeat (3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         gap: 5px;
     }
 
