@@ -498,11 +498,11 @@ inputSearcher.type = "text";
 inputSearcher.placeholder = " Search a game 🔎";
 inputSearcher.style.display = "none";
 inputSearcher.style.width = "140px";
-inputSearcher.style.left = "-40px";
+inputSearcher.style.left = "-30px";
 
 resultsBox.style.position = "absolute";
 resultsBox.style.top = "25px";
-resultsBox.style.left = "-40px";
+resultsBox.style.left = "-30px";
 resultsBox.style.width = "140px";
 resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
