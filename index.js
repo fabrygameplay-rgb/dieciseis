@@ -515,12 +515,12 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "100px";
+        inputSearcher.style.width = "130px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "10px";
+        inputSearcher.style.marginLeft = "40px";
 
-        resultsBox.style.width = "100px";
-        resultsBox.style.left = "-10px";
+        resultsBox.style.width = "130px";
+        resultsBox.style.left = "-40px";
     } 
     
     else if (mediaLandscape.matches) {
@@ -535,9 +535,9 @@ function ajustarInput() {
 
     else {
 
-        inputSearcher.style.width = "160px";
-        resultsBox.style.width = "160px";
-        resultsBox.style.left = "-30px";
+        inputSearcher.style.width = "130px";
+        resultsBox.style.width = "130px";
+        resultsBox.style.left = "-40px";
     }
 
 }
