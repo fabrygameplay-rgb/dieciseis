@@ -745,6 +745,30 @@ textarea {
         cursor: pointer;
     }
 
+    #exploreGrid {
+        gap: 5px;
+    }
+
+    #exploreFlex1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #exploreFlex1 h2 {
+        font-size: 13px;
+    }
+
+    #exploreFlex1 p {
+        font-size: 12px;
+    }
+
+    #exploreFlex2 {
+        display: flex;
+        width: 300px;
+    }
+
     .gridGames1 {
         display: grid;
         grid-template-columns: repeat (3, 1fr);
