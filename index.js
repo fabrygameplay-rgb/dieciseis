@@ -516,11 +516,11 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "100px";
+        inputSearcher.style.width = "125px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "40px";
 
-        resultsBox.style.width = "100px";
+        resultsBox.style.width = "125px";
         resultsBox.style.left = "-40px";
     } 
     
@@ -536,10 +536,10 @@ function ajustarInput() {
 
     else {
 
-        inputSearcher.style.width = "140px";
-        inputSearcher.style.left = "-20px";
-        resultsBox.style.width = "140px";
-        resultsBox.style.left = "-20px";
+        inputSearcher.style.width = "125px";
+        inputSearcher.style.left = "-40px";
+        resultsBox.style.width = "125px";
+        resultsBox.style.left = "-40px";
     }
 
 }
