@@ -753,7 +753,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
     }
 
     #exploreFlex1 h2 {
@@ -764,9 +764,18 @@ textarea {
         font-size: 12px;
     }
 
-    #exploreFlex2 {
+    #exploreFlex2, #exploreFlex3 {
         display: flex;
-        width: 300px;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #exploreFlex2 img, #exploreFlex3 img {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 200px;
     }
 
     .gridGames1 {
