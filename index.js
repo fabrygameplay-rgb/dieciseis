@@ -518,7 +518,7 @@ function ajustarInput() {
         
         inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "60px";
+        inputSearcher.style.marginLeft = "-60px";
 
         resultsBox.style.width = "100px";
         resultsBox.style.left = "-60px";
