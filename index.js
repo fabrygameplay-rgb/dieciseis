@@ -498,10 +498,11 @@ inputSearcher.type = "text";
 inputSearcher.placeholder = " Search a game 🔎";
 inputSearcher.style.display = "none";
 inputSearcher.style.width = "160px";
+inputSearcher.style.left = "-40px";
 
 resultsBox.style.position = "absolute";
 resultsBox.style.top = "25px";
-resultsBox.style.left = "-30px";
+resultsBox.style.left = "-40px";
 resultsBox.style.width = "160px";
 resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
@@ -515,11 +516,11 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "130px";
+        inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "40px";
 
-        resultsBox.style.width = "130px";
+        resultsBox.style.width = "100px";
         resultsBox.style.left = "-40px";
     } 
     
@@ -535,8 +536,8 @@ function ajustarInput() {
 
     else {
 
-        inputSearcher.style.width = "130px";
-        resultsBox.style.width = "130px";
+        inputSearcher.style.width = "140px";
+        resultsBox.style.width = "140px";
         resultsBox.style.left = "-40px";
     }
 
