@@ -746,65 +746,43 @@ textarea {
     }
 
     #exploreGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 5px;
     }
 
-    #exploreFlex1 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #exploreFlex1 h2 {
-        font-size: 13px;
+        font-size: 14px;
+        max-width: 300px;
     }
 
     #exploreFlex1 p {
-        font-size: 12px;
-        width: 300px;
-        height: 300px;
+        font-size: 13px;
+        width: 100%;
+        max-width: 320px;
+
+        min-height: 290px;
+        line-height: 1.2;
+        margin: 0;
     }
 
-    #exploreFlex2 img, #exploreFlex3 img {
+    #exploreFlex2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .exploreFlex3 {
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        max-width: 300px;
-        height:100%;
-        max-height: 300px;
+        align-items: center;
+        gap: 5px;
+        min-height: 290px;
     }
 
-    hr {
-        width: 100%;
-        height: 1px;
-        align-self: stretch;
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(1) {
-        padding-top: 59px;
-        padding-bottom: 80px;
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(2) {
-        padding-top: 62px;
-        padding-bottom: 90px;
-    }
-    
-    #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        padding-top: 81px;
-        padding-bottom: 101px;
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(4) {
-        padding-top: 84px;
-        padding-bottom: 102px;
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        padding-top: 30px;
-        padding-bottom: 13px;
-    }
-    #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        padding-top: 50px;
+    .exploreFlex3 img {
+        height: 100%;
+        max-height: 250px;
+        width: auto;
+        object-fit: contain;
     }
 
     .gridGames1 {
