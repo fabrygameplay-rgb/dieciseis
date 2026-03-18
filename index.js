@@ -511,30 +511,36 @@ resultsBox.style.zIndex = "9999";
 const mediaPortrait = window.matchMedia("(max-width: 480px) and (orientation: portrait)");
 const mediaLandscape = window.matchMedia("(max-width: 480px) and (orientation: landscape)");
 
-function ajustarInput(e) {
+function ajustarInput() {
 
-    if (mediaPortrait.e.matches) {
+    if (mediaPortrait.matches) {
         
         inputSearcher.style.width = "95px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "10px";
+
         resultsBox.style.width = "150px";
         resultsBox.style.left = "-10px";
     } 
     
-    else if (mediaLandscape.e.matches) {
+    else if (mediaLandscape.matches) {
 
-        inputSearcher.style.width = "95px";
+        inputSearcher.style.width = "85px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "10px";
-        resultsBox.style.width = "150px";
-        resultsBox.style.left = "-10px";
+        inputSearcher.style.marginLeft = "5px";
+
+        resultsBox.style.width = "130px";
+        resultsBox.style.left = "-5px";
+    }
+
+    else {
+
+        inputSearcher.style.width = "160px";
+        resultsBox.style.width = "200px";
+        resultsBox.style.left = "-30px";
     }
 
 }
-
-ajustarInput(mediaCelular);
-mediaCelular.addEventListener("change", ajustarInput);
 
 searcher.appendChild(inputSearcher);
 searcher.appendChild(resultsBox);
