@@ -764,6 +764,10 @@ textarea {
         font-size: 12px;
     }
 
+    #exploreFlex2 {
+        padding-top: 60px;
+    }
+
     #exploreFlex2, #exploreFlex3 {
         display: flex;
         flex-direction: column;
