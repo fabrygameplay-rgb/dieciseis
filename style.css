@@ -749,10 +749,6 @@ textarea {
         gap: 5px;
     }
 
-    #exploreGrid hr {
-        display: block;
-    }
-
     #exploreFlex1 {
         display: flex;
         flex-wrap: wrap;
@@ -775,14 +771,13 @@ textarea {
         max-width: 400px;
     }
 
-
     #exploreFlex2 img, #exploreFlex3 img {
         display: flex;
         flex-direction: row;
         width: 100%;
         max-width: 150px;
         height:100%;
-        max-height: 240px;
+        max-height: 260px;
     }
 
     .gridGames1 {
