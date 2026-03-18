@@ -509,7 +509,7 @@ resultsBox.style.display = "none";
 resultsBox.style.zIndex = "9999";
 
 const mediaPortrait = window.matchMedia("(max-width: 480px) and (orientation: portrait)");
-const mediaLandscape = window.matchMedia("(max-width: 480px) and (orientation: landscape)");
+const mediaLandscape = window.matchMedia("(max-width: 900px) and (orientation: landscape)");
 
 function ajustarInput() {
 

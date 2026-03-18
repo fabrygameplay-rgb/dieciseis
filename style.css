@@ -711,7 +711,7 @@ textarea {
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
+@media (max-height: 900px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
@@ -727,19 +727,6 @@ textarea {
         border: 0px;
         font-size: 13px;
         font-family: 'Times New Roman', Times, serif; 
-    }
-
-    .find {
-        position: relative;
-        margin-left: 20px;
-        margin-right: 80px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .find input {
-        margin-left: 40px;
-        margin-right: 80px;
     }
 
     .interfaceBar p {
