@@ -498,11 +498,11 @@ inputSearcher.type = "text";
 inputSearcher.placeholder = " Search a game 🔎";
 inputSearcher.style.display = "none";
 inputSearcher.style.width = "125px";
-inputSearcher.style.left = "-20px";
+inputSearcher.style.left = "-10px";
 
 resultsBox.style.position = "absolute";
 resultsBox.style.top = "25px";
-resultsBox.style.left = "-20px";
+resultsBox.style.left = "-10px";
 resultsBox.style.width = "125px";
 resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
@@ -537,9 +537,9 @@ function ajustarInput() {
     else {
 
         inputSearcher.style.width = "125px";
-        inputSearcher.style.left = "-20px";
+        inputSearcher.style.left = "-10px";
         resultsBox.style.width = "125px";
-        resultsBox.style.left = "-20px";
+        resultsBox.style.left = "-10px";
     }
 
 }
