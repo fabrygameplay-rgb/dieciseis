@@ -515,11 +515,11 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "60x";
+        inputSearcher.style.width = "60px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "10px";
 
-        resultsBox.style.width = "60pxpx";
+        resultsBox.style.width = "60px";
         resultsBox.style.left = "-10px";
     } 
     
@@ -529,7 +529,7 @@ function ajustarInput() {
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "5px";
 
-        resultsBox.style.width = "130px";
+        resultsBox.style.width = "85px";
         resultsBox.style.left = "-5px";
     }
 
