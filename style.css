@@ -711,7 +711,7 @@ textarea {
     }
 }
 
-@media (max-height: 600px) and (orientation: landscape) {
+@media (max-height: 480px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
