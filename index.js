@@ -536,7 +536,7 @@ function ajustarInput() {
     else {
 
         inputSearcher.style.width = "160px";
-        resultsBox.style.width = "200px";
+        resultsBox.style.width = "160px";
         resultsBox.style.left = "-30px";
     }
 
