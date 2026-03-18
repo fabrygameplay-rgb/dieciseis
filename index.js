@@ -516,12 +516,12 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "125px";
+        inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "20px";
+        inputSearcher.style.marginLeft = "30px";
 
-        resultsBox.style.width = "125px";
-        resultsBox.style.left = "-20px";
+        resultsBox.style.width = "100px";
+        resultsBox.style.left = "-30px";
     } 
     
     else if (mediaLandscape.matches) {
