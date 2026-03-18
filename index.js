@@ -515,21 +515,21 @@ function ajustarInput() {
 
     if (mediaPortrait.matches) {
         
-        inputSearcher.style.width = "80px";
+        inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "10px";
 
-        resultsBox.style.width = "80px";
+        resultsBox.style.width = "100px";
         resultsBox.style.left = "-10px";
     } 
     
     else if (mediaLandscape.matches) {
 
-        inputSearcher.style.width = "85px";
+        inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
         inputSearcher.style.marginLeft = "5px";
 
-        resultsBox.style.width = "85px";
+        resultsBox.style.width = "100px";
         resultsBox.style.left = "-5px";
     }
 
