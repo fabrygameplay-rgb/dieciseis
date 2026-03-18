@@ -518,10 +518,10 @@ function ajustarInput() {
         
         inputSearcher.style.width = "125px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "40px";
+        inputSearcher.style.marginLeft = "20px";
 
         resultsBox.style.width = "125px";
-        resultsBox.style.left = "-40px";
+        resultsBox.style.left = "-20px";
     } 
     
     else if (mediaLandscape.matches) {
@@ -537,9 +537,9 @@ function ajustarInput() {
     else {
 
         inputSearcher.style.width = "125px";
-        inputSearcher.style.left = "-40px";
+        inputSearcher.style.left = "-20px";
         resultsBox.style.width = "125px";
-        resultsBox.style.left = "-40px";
+        resultsBox.style.left = "-20px";
     }
 
 }
