@@ -542,6 +542,10 @@ function ajustarInput() {
 
 }
 
+window.addEventListener("load", ajustarInput);
+mediaPortrait.addEventListener("change", ajustarInput);
+mediaLandscape.addEventListener("change", ajustarInput);
+
 searcher.appendChild(inputSearcher);
 searcher.appendChild(resultsBox);
 
