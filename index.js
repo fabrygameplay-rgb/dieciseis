@@ -518,20 +518,20 @@ function ajustarInput() {
         
         inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "-30px";
+        inputSearcher.style.marginLeft = "-20px";
 
         resultsBox.style.width = "100px";
-        resultsBox.style.left = "-30px";
+        resultsBox.style.left = "-20px";
     } 
     
     else if (mediaLandscape.matches) {
 
         inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "-30px";
+        inputSearcher.style.marginLeft = "-20px";
 
         resultsBox.style.width = "100px";
-        resultsBox.style.left = "-30px";
+        resultsBox.style.left = "-20px";
     }
 
     else {
