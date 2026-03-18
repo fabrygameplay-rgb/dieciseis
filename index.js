@@ -502,7 +502,7 @@ inputSearcher.style.width = "160px";
 resultsBox.style.position = "absolute";
 resultsBox.style.top = "25px";
 resultsBox.style.left = "-30px";
-resultsBox.style.width = "200px";
+resultsBox.style.width = "160px";
 resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
 resultsBox.style.display = "none";
@@ -527,7 +527,7 @@ function ajustarInput() {
 
         inputSearcher.style.width = "100px";
         inputSearcher.style.fontSize = "9px";
-        inputSearcher.style.marginLeft = "5px";
+        inputSearcher.style.marginLeft = "10px";
 
         resultsBox.style.width = "100px";
         resultsBox.style.left = "-5px";
