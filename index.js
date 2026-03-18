@@ -497,13 +497,13 @@ const resultsBox = document.createElement("div");
 inputSearcher.type = "text";
 inputSearcher.placeholder = " Search a game 🔎";
 inputSearcher.style.display = "none";
-inputSearcher.style.width = "140px";
+inputSearcher.style.width = "125px";
 inputSearcher.style.left = "-20px";
 
 resultsBox.style.position = "absolute";
 resultsBox.style.top = "25px";
 resultsBox.style.left = "-20px";
-resultsBox.style.width = "140px";
+resultsBox.style.width = "125px";
 resultsBox.style.background = "white";
 resultsBox.style.border = "1px solid black";
 resultsBox.style.display = "none";
