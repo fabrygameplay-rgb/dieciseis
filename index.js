@@ -581,6 +581,9 @@ function posicionarResults() {
     resultsBox.style.position = "fixed";
 }
 
+window.addEventListener("resize", posicionarResults);
+window.addEventListener("scroll", posicionarResults);
+
 inputSearcher.addEventListener("input", () => {
 
     const text = inputSearcher.value.toLowerCase().trim();
