@@ -789,6 +789,7 @@ textarea {
         padding: 0;
         height: auto;
         padding-top: 20px;
+        margin-bottom: -100px;
     }
 
     .exploreFlex3 {
