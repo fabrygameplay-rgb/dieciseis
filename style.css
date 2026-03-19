@@ -816,6 +816,10 @@ textarea {
         gap: 0;
     }
 
+    #img5 {
+        all:unset
+    }
+
     #img1, #img2, #img3, #img4, #img5 {
         width: 80px;
         height: 80px;
