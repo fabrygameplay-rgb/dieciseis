@@ -711,7 +711,7 @@ textarea {
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
+@media (max-width: 480px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
@@ -931,10 +931,10 @@ textarea {
 
 }
 
-@media (min-width: 481px) and (max-width: 769px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
 
     body {
-        color: purple;
+        color: green;
     }
 
     .interfaceBar {
