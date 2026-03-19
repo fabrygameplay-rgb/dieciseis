@@ -551,18 +551,6 @@ mediaLandscape.addEventListener("change", ajustarInput);
 searcher.appendChild(inputSearcher);
 document.body.appendChild(resultsBox);
 
-function posicionarResults() {
-
-    if (resultsBox.style.display === "none") return;
-
-    const rect = inputSearcher.getBoundingClientRect();
-
-    resultsBox.style.position = "fixed";
-    resultsBox.style.top = rect.bottom + "px";
-    resultsBox.style.left = rect.left + "px";
-    resultsBox.style.width = rect.width + "px";
-}
-
 function seguirInput() {
     posicionarResults();
     requestAnimationFrame(seguirInput);
