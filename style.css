@@ -931,8 +931,8 @@ textarea {
 
 }
 
-@media (min-width: 481px) and (max-width: 1366) and (orientation: portrait) {
-    
+@media (min-width: 481px) and (max-width: 1366px) and (orientation: portrait) {
+
     .interfaceBar {
         display: flex;
         gap: 0px;
