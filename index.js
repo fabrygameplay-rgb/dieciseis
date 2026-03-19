@@ -549,12 +549,27 @@ mediaPortrait.addEventListener("change", ajustarInput);
 mediaLandscape.addEventListener("change", ajustarInput);
 
 searcher.appendChild(inputSearcher);
-searcher.appendChild(resultsBox);
+document.body.appendChild(resultsBox);
+
+function posicionarResults() {
+
+    const rect = inputSearcher.getBoundingClientRect();
+
+    resultsBox.style.top = rect.bottom + "px";
+    resultsBox.style.left = rect.left + "px";
+
+}
+
+window.addEventListener("resize", posicionarResults);
+window.addEventListener("scroll", posicionarResults);
 
 searcher.addEventListener("click", (e) => {
+
     e.stopPropagation();
     inputSearcher.style.display = "block";
     inputSearcher.focus();
+    posicionarResults();
+
 });
 
 document.addEventListener("click", (e) => {
@@ -613,6 +628,7 @@ inputSearcher.addEventListener("input", () => {
     });
 
     resultsBox.style.display = "block";
+    posicionarResults();
 
 });
 
