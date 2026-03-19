@@ -797,12 +797,16 @@ textarea {
         gap: 5px;
         height: 300px;
         overflow: hidden;
+        padding: 0;
+        margin: 0;
     }
 
     .exploreFlex3 img {
-        max-height: 140px;
+        max-height: 120px;
         width: auto;
         object-fit: contain;
+        padding: 0;
+        margin: 0;
     }
 
     .exploreFlex3 img {
