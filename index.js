@@ -553,15 +553,20 @@ document.body.appendChild(resultsBox);
 
 function posicionarResults() {
 
+    if (resultsBox.style.display === "none") return;
+
     const rect = inputSearcher.getBoundingClientRect();
 
+    resultsBox.style.position = "fixed";
     resultsBox.style.top = rect.bottom + "px";
     resultsBox.style.left = rect.left + "px";
-
+    resultsBox.style.width = rect.width + "px";
 }
 
-window.addEventListener("resize", posicionarResults);
-window.addEventListener("scroll", posicionarResults);
+function seguirInput() {
+    posicionarResults();
+    requestAnimationFrame(seguirInput);
+}
 
 searcher.addEventListener("click", (e) => {
 
@@ -569,8 +574,9 @@ searcher.addEventListener("click", (e) => {
     inputSearcher.style.display = "block";
     inputSearcher.focus();
     posicionarResults();
-
+    seguirInput();
 });
+
 
 document.addEventListener("click", (e) => {
 
