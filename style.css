@@ -935,14 +935,18 @@ textarea {
     
     #exploreFlex1 hr {
         width: 100%;
-        max-width: 300px;
-        height: 1px;
-        margin: 5px 0; 
+        max-width: none;
+    }
+
+    #exploreFlex2 h2 {
+        font-size: 18px;
+        width: 300px;
     }
 
     #exploreFlex2 p {
+        font-size: 16px;
         width: 300px;
-        height: 300px;
+        height: 500px;
     }
 
     #exploreFlex2 hr {
