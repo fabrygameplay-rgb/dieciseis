@@ -931,7 +931,7 @@ textarea {
 
 }
 
-@media (min-width: 481px) and (orientation: portrait) {
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
 
     #exploreFlex2 h2 {
         font-size: 13px;
@@ -952,7 +952,7 @@ textarea {
         margin: 0;
     }
 
-        #exploreFlex3 hr {
+    #exploreFlex3 hr {
         display: none;
         width: 0;
         height: 0;
@@ -969,7 +969,7 @@ textarea {
 
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 769px) and (orientation: landscape) {
     
     #exploreFlex2 p {
         width: 300px;
