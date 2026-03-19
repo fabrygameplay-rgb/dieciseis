@@ -573,13 +573,18 @@ document.addEventListener("click", (e) => {
 });
 
 function posicionarResults() {
+
     const rect = inputSearcher.getBoundingClientRect();
 
-    resultsBox.style.top = rect.bottom + "px";
-    resultsBox.style.left = rect.left + "px";
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+
+    resultsBox.style.position = "absolute";
+    resultsBox.style.top = rect.bottom + scrollY + "px";
+    resultsBox.style.left = rect.left + scrollX + "px";
     resultsBox.style.width = rect.width + "px";
-    resultsBox.style.position = "fixed";
 }
+
 
 window.addEventListener("resize", posicionarResults);
 window.addEventListener("scroll", posicionarResults);
