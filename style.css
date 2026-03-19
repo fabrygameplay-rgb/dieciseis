@@ -711,7 +711,7 @@ textarea {
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
+@media (max-height: 500px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
@@ -784,53 +784,89 @@ textarea {
     #exploreFlex2 {
         display: flex;
         flex-direction: column;
-        gap: 10px; 
         margin: 0;
         padding: 0;
-    }
-
-    #exploreFlex2 hr {
-        width: 100%;
-        max-width: 300px;
-        margin: 5px 0;
+        height: auto;
+        padding-top: 20px;
     }
 
     .exploreFlex3 {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 0px;
+        flex-direction: row;
+        align-items: center;      
+        justify-content: center;
+        gap: 10px;
+        width: 300px;
         height: 300px;
         overflow: hidden;
         padding: 0;
         margin: 0;
     }
 
-    .exploreFlex3 img {
-        width: 120px;
-        height: 180px;
+    #exploreFlex2 .exploreFlex3:nth-of-type(1) {
+    transform: translateY(-10px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(2) {
+        transform: translateY(-60px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(3) {
+        transform: translateY(-90px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(4) {
+        transform: translateY(-80px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(5) {
+        transform: translateY(-100px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(6) {
+        transform: translateY(-140px);
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        all: unset;
+    }
+
+    #exploreFlex1 hr {
+    width: 100%;
+    max-width: none;
+    }
+
+    #exploreFlex1 {
+        position: relative;
+    }
+
+    #exploreFlex1 hr {
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 100vw;            
+        max-width: calc(100vw - 20px);
+    }
+
+    .exploreFlex3 img, #img1, #img2, #img3, #img4, #img5, #img6  {
+        width: 140px;
+        height: auto;          
+        max-height: 200px;
         object-fit: contain;
-        padding: 0;
         margin: 0;
-        gap: 0;
-    }
-
-    #img5 {
-        all:unset
-    }
-
-    #img1, #img2, #img3, #img4, #img5 {
-        width: 80px;
-        height: 80px;
-        gap: 0;
         padding: 0;
+        display: block;
+    }
+
+    .exploreFlex3 hr {
+        height: 0;
         margin: 0;
     }
 
-    #exploreFlex2 hr {
-        height: 1px;
-        margin: 5px 0;
+    .exploreFlex3 img:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .gridGames1 {
