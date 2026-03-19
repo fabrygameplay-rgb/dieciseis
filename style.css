@@ -747,7 +747,7 @@ textarea {
 
     #exploreGrid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 320px 1fr;
         gap: 15px; 
         align-items: start; 
     }
