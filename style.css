@@ -931,11 +931,11 @@ textarea {
 
 }
 
-@media (min-width: 481px) and (max-width: 600px) and (orientation: portrait) {
+@media (min-width: 481px) and (orientation: portrait) {
 
 }
 
-@media (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 769px) and (orientation: landscape) {
     
     #exploreFlex2 p {
         width: 300px;
