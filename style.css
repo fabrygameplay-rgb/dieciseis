@@ -931,10 +931,10 @@ textarea {
 
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 900px) and (orientation: landscape) {
 
     body {
-        color: green;
+        color: blue;
     }
 
     .interfaceBar {
