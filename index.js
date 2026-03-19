@@ -551,20 +551,16 @@ mediaLandscape.addEventListener("change", ajustarInput);
 searcher.appendChild(inputSearcher);
 document.body.appendChild(resultsBox);
 
-function seguirInput() {
-    posicionarResults();
-    requestAnimationFrame(seguirInput);
-}
-
 searcher.addEventListener("click", (e) => {
-
     e.stopPropagation();
     inputSearcher.style.display = "block";
     inputSearcher.focus();
     posicionarResults();
-    seguirInput();
 });
 
+inputSearcher.addEventListener("input", () => {
+    posicionarResults();
+});
 
 document.addEventListener("click", (e) => {
 
@@ -575,6 +571,15 @@ document.addEventListener("click", (e) => {
     }
 
 });
+
+function posicionarResults() {
+    const rect = inputSearcher.getBoundingClientRect();
+
+    resultsBox.style.top = rect.bottom + "px";
+    resultsBox.style.left = rect.left + "px";
+    resultsBox.style.width = rect.width + "px";
+    resultsBox.style.position = "fixed";
+}
 
 inputSearcher.addEventListener("input", () => {
 
@@ -622,7 +627,6 @@ inputSearcher.addEventListener("input", () => {
     });
 
     resultsBox.style.display = "block";
-    posicionarResults();
 
 });
 
