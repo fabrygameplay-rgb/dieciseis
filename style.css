@@ -794,7 +794,7 @@ textarea {
         flex-direction: column;
         align-items: center;
         gap: 5px;
-        min-height: 42vh;
+        height: 300px;
     }
 
     .exploreFlex3 img {
