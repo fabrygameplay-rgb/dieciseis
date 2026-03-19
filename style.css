@@ -799,14 +799,14 @@ textarea {
         overflow: hidden;
     }
 
-    .exploreFlex3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        height: 300px;
-        overflow: hidden;
+    .exploreFlex3 img {
+        max-height: 140px;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .exploreFlex3 img {
+        max-height: calc(300px / 2 - 5px);
     }
 
     #exploreFlex2 hr {
