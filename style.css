@@ -806,6 +806,13 @@ textarea {
         flex-direction: column;
     }
 
+    .exploreFlex3 #img1 #img2 #img3 #img4 #img5 {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 200px;
+    } 
+
     #exploreFlex2 hr {
         height: 1px;
         margin: 5px 0;
