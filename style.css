@@ -711,7 +711,7 @@ textarea {
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
+@media (max-height: 500px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
@@ -753,17 +753,22 @@ textarea {
 
     #exploreFlex1 h2 {
         font-size: 14px;
-        max-width: 225px;
+        max-width: 300px;
     }
 
     #exploreFlex1 p {
         font-size: 13px;
         width: 100%;
-        max-width: 225px;
+        max-width: 300px;
 
         min-height: 290px;
         line-height: 1.2;
         margin: 0;
+    }
+
+    #exploreFlex1 hr {
+        width: 100%;
+        max-width: 300px;
     }
 
     #exploreFlex2 {
