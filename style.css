@@ -816,6 +816,14 @@ textarea {
         gap: 0;
     }
 
+    #img1, #img2, #img3, #img4, #img5 {
+        width: 120px;
+        height: 180px;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+
     #exploreFlex2 hr {
         height: 1px;
         margin: 5px 0;
