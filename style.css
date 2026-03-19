@@ -933,6 +933,14 @@ textarea {
 
 @media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
     
+    .interfaceBar {
+        display: flex;
+        gap: 0px;
+        background-color: bisque;
+        align-items: center;
+        overflow-y: auto;
+    }
+
     #exploreFlex1 hr {
         width: 100%;
         max-width: none;
