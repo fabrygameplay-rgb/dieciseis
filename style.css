@@ -931,44 +931,6 @@ textarea {
 
 }
 
-@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
-
-    #exploreFlex2 h2 {
-        font-size: 13px;
-        width: 300px;
-    }
-
-    #exploreFlex2 p {
-        font-size: 12px;
-        width: 300px;
-        height: 300px;
-    }
-
-    #exploreFlex2 hr {
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    #exploreFlex3 hr {
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    #explore3 img {
-        width: 250px;
-        height: 230px;
-        padding: 0;
-        margin: 0,
-    }
-
-}
-
 @media (min-width: 769px) and (orientation: landscape) {
     
     #exploreFlex1 hr {
@@ -1003,7 +965,8 @@ textarea {
         width: 250px;
         height: 230px;
         padding: 0;
-        margin: 0,
+        margin: 0;
+        margin-left: 5px;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
@@ -1011,6 +974,7 @@ textarea {
         height: 230px;
         padding:0;
         margin:0;
+        margin-left: 5px;
     }
 
 }
