@@ -751,17 +751,22 @@ textarea {
         gap: 5px;
     }
 
+    #exploreFlex1 {
+        display: flex;
+        flex-direction: column;
+    }
+
     #exploreFlex1 h2 {
         font-size: 14px;
         max-width: 300px;
+        margin: 0;
     }
 
     #exploreFlex1 p {
         font-size: 13px;
         width: 100%;
         max-width: 300px;
-
-        min-height: 290px;
+        min-height: 42vh;
         line-height: 1.2;
         margin: 0;
     }
@@ -769,9 +774,13 @@ textarea {
     #exploreFlex1 hr {
         width: 100%;
         max-width: 300px;
+        height: 1px;
+        margin: 0;
     }
 
     #exploreFlex2 {
+        display: flex;
+        flex-direction: column;
         margin: 0;
         padding: 0;
     }
@@ -780,14 +789,19 @@ textarea {
         display: flex;
         align-items: center;
         gap: 5px;
-        min-height: 290px;
+        min-height: 42vh;
     }
 
     .exploreFlex3 img {
         height: 100%;
-        max-height: 250px;
-        width: 150px;
+        max-height: 35vh;
+        width: auto;
         object-fit: contain;
+    }
+
+    #exploreFlex2 hr {
+        height: 1px;
+        margin: 0;
     }
 
     .gridGames1 {
