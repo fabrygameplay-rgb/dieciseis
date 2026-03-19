@@ -931,7 +931,7 @@ textarea {
 
 }
 
-@media (min-width: 769px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
     
     #exploreFlex1 hr {
         width: 100%;
