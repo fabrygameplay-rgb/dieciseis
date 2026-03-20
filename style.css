@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) {
 
     body {
-        color: red;
+        color: grey;
     }
 
     .interfaceBar {
@@ -500,12 +500,12 @@ textarea {
 
     #exploreFlex1 h2 {
         font-size: 18px;
-        width: 320px;
+        width: 360px;
     }
 
     #exploreFlex1 p {
         font-size: 16px;
-        width: 320px;
+        width: 360px;
         height: 480px;
     }
 
@@ -548,13 +548,13 @@ textarea {
     }
 
     .exploreFlex3 img {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
