@@ -598,7 +598,7 @@ textarea {
         display: flex;
         gap: 30px;
         margin: 10px;
-        padding: 10px;
+        padding: 10px 40px;
         justify-content: space-between;
     }
 
