@@ -934,7 +934,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 900px) and (orientation: portrait) {
 
     body {
-        color: pink;
+        color: red;
     }
 
     .interfaceBar {
@@ -944,7 +944,7 @@ textarea {
         align-items: center;
         overflow-y: auto;
         font-size: 16px;
-        height: 100px; 
+        height: 80px; 
     }
 
     #exploreGrid {
@@ -990,6 +990,11 @@ textarea {
         margin: 0;
     }
 
+    #exploreFlex3 {
+        display: flex;
+        flex-direction: column;
+    }
+
     #exploreFlex3 hr {
         display: none;
         width: 0;
@@ -1009,6 +1014,8 @@ textarea {
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
+        display: flex;
+        flex-direction: column;
         width: 220px;
         height: 200px;
         padding:0;
