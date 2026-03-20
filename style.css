@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) {
 
     body {
-        color: grey;
+        color: whitesmoke;
     }
 
     .interfaceBar {
@@ -555,30 +555,31 @@ textarea {
     #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 180px;
         height: 180px;
+        transform: translateX(-20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
-    transform: translateY(0px);
+        transform: translateY(20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(2) {
-        transform: translateY(0px);
+        transform: translateY(20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        transform: translateY(0px);
+        transform: translateY(20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(4) {
-        transform: translateY(0px);
+        transform: translateY(180px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(-0px);
+        transform: translateY(200px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(0px);
+        transform: translateY(200px);
     }
 
     .gridGames1 {
