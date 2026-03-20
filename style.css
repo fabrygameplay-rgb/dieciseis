@@ -935,7 +935,7 @@ textarea {
 
 }
 
-/*tablet portrait */
+/*tablet portrait 
 
 @media (min-width: 900px) and (orientation: portrait) {
 
@@ -1101,7 +1101,7 @@ textarea {
 
 }
 
-/* Tablet landscape */
+/* Tablet landscape
 
 @media (min-width: 900px) and (max-width: 1400px) and (orientation: landscape) {
 
@@ -1213,3 +1213,5 @@ textarea {
         transform: translateY(200px);
     }
 }
+
+*/
