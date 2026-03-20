@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) {
 
     body {
-        color: brown;
+        color: pink;
     }
 
     .interfaceBar {
@@ -524,37 +524,51 @@ textarea {
         margin: 0;
     }
 
-    #exploreFlex3 {
+    #exploreFlex2 {
         display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        padding-top: 20px;
+        margin-bottom: -100px;
     }
 
-    #exploreFlex3 hr {
-        display: none;
-        width: 0;
-        height: 0;
+    .exploreFlex3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+        justify-content: center;
+        gap: 10px;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
         padding: 0;
         margin: 0;
     }
 
-    #explore3 img {
-        display: flex;
-        flex-direction: column;
-        width: 250px;
-        height: 200px;
-        padding: 0;
-        margin: 0;
-        margin-left: 5px;
+    #exploreFlex2 .exploreFlex3:nth-of-type(1) {
+    transform: translateY(0px);
     }
 
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        display: flex;
-        flex-direction: column;
-        width: 220px;
-        height: 200px;
-        padding:0;
-        margin:0;
-        margin-left: 5px;
+    #exploreFlex2 .exploreFlex3:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(3) {
+        transform: translateY(0px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(4) {
+        transform: translateY(0px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(5) {
+        transform: translateY(-0px);
+    }
+
+    #exploreFlex2 .exploreFlex3:nth-of-type(6) {
+        transform: translateY(0px);
     }
 
     .gridGames1 {
@@ -590,19 +604,14 @@ textarea {
         margin-left: 20px;
     }
 
-    section ul li {
-        width: 100%;
-    }
-
     section {
         display: flex;
         gap: 10px;
         margin: 10px;
-        padding: 10px 40px;
+        padding: 10px 30px;
         justify-content: center;
         width: 100%;
     }
-
 
 }
 
