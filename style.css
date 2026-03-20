@@ -720,7 +720,7 @@ textarea {
     body {
         color: blue;
     }
-    
+
     .interfaceBar {
         display: flex;
         gap: 0px;
@@ -879,12 +879,15 @@ textarea {
         align-items: center;
     }
 
+    main {
+        height: auto;
+    }
+    
     .gridGames1 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 5px;
-        height: auto;
     }
 
     .gridGames1 img {
