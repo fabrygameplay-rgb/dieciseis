@@ -944,7 +944,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: green;
+        color: blue;
     }
 
     .interfaceBar {
@@ -959,7 +959,7 @@ textarea {
 
     #exploreGrid {
         display: grid;
-        grid-template-columns: 320px 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
         align-items: start;
         margin-bottom: 0;
@@ -988,13 +988,6 @@ textarea {
         height: 480px;
     }
 
-    #exploreFlex2 {
-        gap: 5px;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
     #exploreFlex2 hr {
         display: none;
         width: 0;
@@ -1006,8 +999,10 @@ textarea {
     #exploreFlex2 {
         display: flex;
         flex-direction: column;
+        gap: 5px;
         margin: 0;
         padding: 0;
+        width: 500px;
         height: auto;
         padding-top: 20px;
         margin-bottom: -100px;
@@ -1029,12 +1024,16 @@ textarea {
     .exploreFlex3 img {
         width: 180px;
         height: 180px;
+        margin: 0;
+        padding: 0;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 180px;
         height: 180px;
-        transform: translateX(200px);
+        transform: translateX(-100px);
+        padding: 0;
+        margin: 0;
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
@@ -1109,11 +1108,6 @@ textarea {
 
 @media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
 
-    body {
-        color: purple;
-    }
-
-    
     #exploreGrid {
         display: grid;
         grid-template-columns: repeat(2,1fr);
