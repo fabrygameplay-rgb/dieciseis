@@ -556,6 +556,17 @@ textarea {
         margin-left: 5px;
     }
 
+    .gridGames1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .gridGames1 img {
+        width: 200px;
+        height: 200px;
+    }
+
 }
 
 @media (max-width: 480px) and (orientation: portrait) {
