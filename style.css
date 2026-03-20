@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: blue;
+        color: yellow;
     }
 
     .interfaceBar {
@@ -631,7 +631,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
 
     body {
-        color: purple;
+        color: green;
     }
 
     #exploreGrid {
@@ -741,10 +741,10 @@ textarea {
 
 /*celular portrait */
 
-@media (max-width: 480px) and (orientation: portrait) {
+@media (min-width: 0px) and (max-width:480px) and (orientation: portrait) {
 
     body {
-        color: black;
+        color: pink;
     }
 
     .interfaceBar {
@@ -998,10 +998,10 @@ textarea {
 
 /* celular landscape */
 
-@media (max-width: 480px) and (orientation: landscape) {
+@media (min-width: 0px) and (max-width: 480px) and (orientation: landscape) {
 
     body {
-        color: black;
+        color: red;
     }
 
     .interfaceBar {
