@@ -460,7 +460,7 @@ textarea {
     width: 200px;
 }
 
-/*tablet portrait*/
+/*tablet portrait
 
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
 
@@ -626,9 +626,9 @@ textarea {
 
 }
 
-/* Tablet landscape */
+/* Tablet landscape
 
-@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media (max-height: 480px) and (orientation: landscape) {
 
     body {
         color: green;
@@ -738,6 +738,8 @@ textarea {
         transform: translateY(200px);
     }
 }
+
+/*
 
 /*celular portrait */
 
@@ -998,7 +1000,7 @@ textarea {
 
 /* celular landscape */
 
-@media (min-width: 0px) and (max-width: 480px) and (orientation: landscape) {
+@media (min-height: 480px) and (orientation: landscape) {
 
     body {
         color: red;
