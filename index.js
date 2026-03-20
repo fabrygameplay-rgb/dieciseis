@@ -331,6 +331,8 @@ const linkGBC = document.querySelector('a[href="indexGameBoyColor.html"]');
     function ajustarTexto() {
         if (window.matchMedia("(max-width: 480px)").matches) {
             linkGBC.textContent = "GB Color";
+        } else if (window.matchMedia("(min-width: 481px) and (max-width: 1024px").matches) {
+            linkGBC.textContent = "GB Color";
         } else {
             linkGBC.textContent = "Game Boy Color";
         }
