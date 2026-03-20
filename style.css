@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) {
 
     body {
-        color: blue;
+        color: green;
     }
 
     .interfaceBar {
@@ -587,7 +587,7 @@ textarea {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 5px;
+        gap: 20px;
         padding: 0;
         margin: 0;
     }
