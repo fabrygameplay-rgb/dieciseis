@@ -741,7 +741,7 @@ textarea {
 
 /*celular portrait */
 
-@media (min-width: 0px) and (max-width:480px) and (orientation: portrait) {
+@media (max-height:480px) {
 
     body {
         color: pink;
@@ -998,7 +998,7 @@ textarea {
 
 /* celular landscape */
 
-@media (max-width: 480px) and (orientation: landscape) {
+@media (min-width: 481px)  {
 
     body {
         color: red;
