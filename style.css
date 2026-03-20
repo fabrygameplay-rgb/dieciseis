@@ -935,9 +935,9 @@ textarea {
 
 }
 
-/*tablet portrait 
+/*tablet portrait */
 
-@media (min-width: 900px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
         color: yellow;
@@ -1101,9 +1101,9 @@ textarea {
 
 }
 
-/* Tablet landscape
+/* Tablet landscape */
 
-@media (min-width: 900px) and (max-width: 1400px) and (orientation: landscape) {
+@media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
 
     body {
         color: orange;
@@ -1213,5 +1213,3 @@ textarea {
         transform: translateY(200px);
     }
 }
-
-*/
