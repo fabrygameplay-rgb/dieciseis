@@ -465,7 +465,7 @@ textarea {
 @media (min-width: 481px) and (max-width: 1024px) {
 
     body {
-        color: whitesmoke;
+        color: red;
     }
 
     .interfaceBar {
@@ -555,7 +555,7 @@ textarea {
     #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 180px;
         height: 180px;
-        transform: translateX(-20px);
+        transform: translateX(-80px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
@@ -630,6 +630,10 @@ textarea {
 
 @media (max-width: 480px) {
 
+    body {
+        color: black;
+    }
+    
     .interfaceBar {
         display: flex;
         gap: 0px;
@@ -882,6 +886,10 @@ textarea {
 /* celular landscape */
 
 @media (max-height: 480px) {
+
+    body {
+        color: black;
+    }
 
     .interfaceBar {
         display: flex;
