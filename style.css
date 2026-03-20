@@ -460,6 +460,104 @@ textarea {
     width: 200px;
 }
 
+
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body {
+        color: purple;
+    }
+
+    .interfaceBar {
+        display: flex;
+        gap: 0px;
+        background-color: bisque;
+        align-items: center;
+        overflow-y: auto;
+        font-size: 16px;
+        height: 80px; 
+    }
+
+    #exploreGrid {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 5px;
+        align-items: start;
+        margin-bottom: 0;
+    }
+
+    #exploreFlex1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        gap: 10px; 
+    }
+
+    #exploreFlex1 hr {
+        width: 100%;
+        max-width: none;
+    }
+
+    #exploreFlex1 h2 {
+        font-size: 18px;
+        width: 320px;
+    }
+
+    #exploreFlex1 p {
+        font-size: 16px;
+        width: 320px;
+        height: 480px;
+    }
+
+    #exploreFlex2 {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #exploreFlex2 hr {
+        display: none;
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #exploreFlex3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #exploreFlex3 hr {
+        display: none;
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #explore3 img {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        height: 200px;
+        padding:0;
+        margin:0;
+        margin-left: 5px;
+    }
+
+}
+
 @media (max-width: 480px) and (orientation: portrait) {
 
     .interfaceBar {
@@ -927,103 +1025,6 @@ textarea {
         font-size: 14px;
         line-height: 1.2;
         padding: 10px 4px 4px 4px; 
-    }
-
-}
-
-@media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
-
-    body {
-        color: purple;
-    }
-
-    .interfaceBar {
-        display: flex;
-        gap: 0px;
-        background-color: bisque;
-        align-items: center;
-        overflow-y: auto;
-        font-size: 16px;
-        height: 80px; 
-    }
-
-    #exploreGrid {
-        display: grid;
-        grid-template-columns: 320px 1fr;
-        gap: 5px;
-        align-items: start;
-        margin-bottom: 0;
-    }
-
-    #exploreFlex1 {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-        gap: 10px; 
-    }
-
-    #exploreFlex1 hr {
-        width: 100%;
-        max-width: none;
-    }
-
-    #exploreFlex1 h2 {
-        font-size: 18px;
-        width: 320px;
-    }
-
-    #exploreFlex1 p {
-        font-size: 16px;
-        width: 320px;
-        height: 480px;
-    }
-
-    #exploreFlex2 {
-        gap: 5px;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    #exploreFlex2 hr {
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    #exploreFlex3 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #exploreFlex3 hr {
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    #explore3 img {
-        display: flex;
-        flex-direction: column;
-        width: 250px;
-        height: 200px;
-        padding: 0;
-        margin: 0;
-        margin-left: 5px;
-    }
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        display: flex;
-        flex-direction: column;
-        width: 220px;
-        height: 200px;
-        padding:0;
-        margin:0;
-        margin-left: 5px;
     }
 
 }
