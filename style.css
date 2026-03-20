@@ -717,6 +717,10 @@ textarea {
 
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
     
+    body {
+        color: blue;
+    }
+    
     .interfaceBar {
         display: flex;
         gap: 0px;
@@ -880,6 +884,7 @@ textarea {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 5px;
+        height: auto;
     }
 
     .gridGames1 img {
