@@ -743,10 +743,6 @@ textarea {
 
 @media (max-width: 480px) {
 
-    body {
-        color: pink;
-    }
-
     .interfaceBar {
         display: flex;
         gap: 0px;
@@ -999,10 +995,6 @@ textarea {
 /* celular landscape */
 
 @media (min-width: 481px) {
-
-    body {
-        color: red;
-    }
 
     .interfaceBar {
         display: flex;
