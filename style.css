@@ -462,7 +462,7 @@ textarea {
 
 /*tablet portrait */
 
-@media (min-width: 933px) and (max-width: 1024px) {
+@media (min-width: 933px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
         color: yellow;
