@@ -980,6 +980,9 @@ textarea {
 
     #exploreFlex2 {
         gap: 5px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
 
     #exploreFlex2 hr {
