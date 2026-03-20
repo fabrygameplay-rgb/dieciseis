@@ -944,7 +944,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: blue;
+        color: lightskyblue;
     }
 
     .interfaceBar {
@@ -1014,7 +1014,7 @@ textarea {
         align-items: center;      
         justify-content: center;
         gap: 10px;
-        width: 300px;
+        width: 400px;
         height: 300px;
         overflow: hidden;
         padding: 0;
@@ -1022,14 +1022,14 @@ textarea {
     }
 
     .exploreFlex3 img {
-        width: 180px;
+        width: 140px;
         height: 180px;
         margin: 0;
         padding: 0;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 180px;
+        width: 140px;
         height: 180px;
         transform: translateX(-100px);
         padding: 0;
@@ -1037,27 +1037,27 @@ textarea {
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
-        transform: translateY(20px);
+        transform: translateY(-20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(2) {
-        transform: translateY(80px);
+        transform: translateY(-80px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        transform: translateY(20px);
+        transform: translateY(-20px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(4) {
-        transform: translateY(180px);
+        transform: translateY(-180px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(200px);
+        transform: translateY(-200px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(200px);
+        transform: translateY(-200px);
     }
 
     .gridGames1 {
