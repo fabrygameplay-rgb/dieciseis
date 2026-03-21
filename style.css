@@ -941,15 +941,10 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: blue;
-        position: relative;
-        min-height: 100vh;
-        padding-bottom: 120px;
-    }
-
-    body::after {
-        content: "";
-        flex: 1 0 auto;
+        color: yellow;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 
     .interfaceBar {
@@ -1093,22 +1088,16 @@ textarea {
         margin-left: 20px;
     }
 
-    #formContent2 {
-        position: relative;
-        height: auto;
-        max-height: none;
-    }
-
     section {
-        position: relative;
-        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        padding: 10px 30px;
+        justify-content: center;
+        width: 100%;
     }
 
     footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        margin-top: 0;
     }
 
 }
