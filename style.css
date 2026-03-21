@@ -941,7 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: blue;
+        color: peru;
     }
 
     .interfaceBar {
@@ -984,7 +984,7 @@ textarea {
     #exploreFlex1 p {
         font-size: 16px;
         width: 330px;
-        height: 5000px;
+        height: auto;
     }
 
     #exploreFlex2 hr {
