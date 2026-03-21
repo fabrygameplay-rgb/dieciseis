@@ -1028,15 +1028,15 @@ textarea {
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
-        transform: translateY(80px);
+        transform: translateY(60px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(2) {
-        transform: translateY(140px);
+        transform: translateY(160px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        transform: translateY(140px);
+        transform: translateY(220px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(4) {
@@ -1044,11 +1044,11 @@ textarea {
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(200px);
+        transform: translateY(400px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(300px);
+        transform: translateY(500px);
     }
 
     #exploreFlex1 hr {
