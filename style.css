@@ -941,7 +941,6 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: red;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -1096,24 +1095,20 @@ textarea {
         width: 100%;
     }
 
-    #formContent2 {
-        position: relative;
-        height: auto;       
-        max-height: none;
-    }
-
-    
-    #formContent2::after {
-        content: "";
-        display: block;
-        height: 300px; 
-        width: 100%;
+    section {
+        flex-shrink: 0;
+        margin-top: 20px;
     }
 
     footer {
-        margin-top: 0;
+        margin-top: auto;
     }
 
+    #formContent2 {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Tablet landscape */
