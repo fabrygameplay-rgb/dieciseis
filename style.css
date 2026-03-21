@@ -941,7 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: pink;
+        color: goldenrod;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -1095,10 +1095,6 @@ textarea {
         padding: 10px 30px;
         justify-content: center;
         width: 100%;
-    }
-
-    footer {
-        margin-top: auto;
     }
 
 }
