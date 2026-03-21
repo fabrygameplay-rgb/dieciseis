@@ -944,7 +944,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: plum;
+        color: yellow;
     }
 
     .interfaceBar {
@@ -1036,19 +1036,19 @@ textarea {
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        transform: translateY(220px);
+        transform: translateY(320px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(4) {
-        transform: translateY(200px);
+        transform: translateY(500px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(400px);
+        transform: translateY(600px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(500px);
+        transform: translateY(520px);
     }
 
     #exploreFlex1 hr {
