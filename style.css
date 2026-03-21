@@ -941,7 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: yellow;
+        color: red;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -1093,6 +1093,20 @@ textarea {
         gap: 10px;
         padding: 10px 30px;
         justify-content: center;
+        width: 100%;
+    }
+
+    #formContent2 {
+        position: relative;
+        height: auto;       
+        max-height: none;
+    }
+
+    
+    #formContent2::after {
+        content: "";
+        display: block;
+        height: 300px; 
         width: 100%;
     }
 
