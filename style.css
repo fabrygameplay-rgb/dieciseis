@@ -941,7 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: pink;
+        color: yellow;
     }
 
     .interfaceBar {
@@ -1082,6 +1082,10 @@ textarea {
 
     .ul2 {
         margin-left: 20px;
+    }
+
+    #formContent2 {
+        flex: 1;
     }
 
     section {
