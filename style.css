@@ -941,8 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: red;
-        overflow-x: hidden;
+        color:purple;
     }
 
     .interfaceBar {
@@ -973,7 +972,8 @@ textarea {
         width: 100vw;
         max-width: 100vw;
         position: relative;
-        left: 0;
+        left: 0;            
+        max-width: calc(100vw - 20px);
     }
 
     #exploreFlex1 h2 {
@@ -1087,6 +1087,7 @@ textarea {
 
     #formContent2 {
         flex: 1;
+        height: auto;
         margin-bottom: auto;
     }
 
