@@ -880,10 +880,7 @@ textarea {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 5px;
-    }
-
-    .gridGames2 {
-        padding-bottom: 20px;
+        height: auto;
     }
 
     .gridGames1 img {
@@ -943,8 +940,19 @@ textarea {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
     body {
-        color: blue;
+        color: brown;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
     .interfaceBar {
@@ -971,8 +979,11 @@ textarea {
     }
 
     #exploreFlex1 hr {
-        width: 100%;
-        max-width: none;
+        width: 100vw;
+        max-width: 100vw;
+        position: relative;
+        left: 0;
+        width: calc(100vw - 40px);
     }
 
     #exploreFlex1 h2 {
@@ -1044,11 +1055,11 @@ textarea {
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(680px);
+        transform: translateY(650px);
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(820px);
+        transform: translateY(800px);
     }
 
     #exploreFlex1 hr {
@@ -1096,6 +1107,10 @@ textarea {
         padding: 10px 30px;
         justify-content: center;
         width: 100%;
+    }
+
+    footer {
+        margin-top: auto;
     }
 
 }
