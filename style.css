@@ -941,7 +941,8 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: yellow;
+        color: red;
+        overflow-x: hidden;
     }
 
     .interfaceBar {
@@ -1086,6 +1087,7 @@ textarea {
 
     #formContent2 {
         flex: 1;
+        margin-bottom: auto;
     }
 
     section {
