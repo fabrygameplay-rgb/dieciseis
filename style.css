@@ -941,7 +941,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: orchid;
+        color: red;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -1093,13 +1093,21 @@ textarea {
         margin-left: 20px;
     }
 
+    #formContent2 {
+        margin: 40px auto 0 auto;
+    }
+
     section {
+        margin-top: auto;
         display: flex;
         gap: 10px;
-        margin: 10px;
         padding: 10px 30px;
         justify-content: center;
         width: 100%;
+    }
+
+    footer {
+        margin-top: auto;
     }
 
 }
