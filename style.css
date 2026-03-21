@@ -941,10 +941,15 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     body {
-        color: goldenrod;
+        color: blue;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+    }
+
+    #formContent2 {
+        margin: 40px auto;
+        flex: 1;
     }
 
     .interfaceBar {
