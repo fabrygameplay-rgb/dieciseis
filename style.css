@@ -965,6 +965,7 @@ textarea {
         flex-direction: column;
         padding-top: 10px;
         gap: 10px; 
+        height: auto;
     }
 
     #exploreFlex1 hr {
@@ -1107,7 +1108,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
+@media (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
