@@ -940,12 +940,6 @@ textarea {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
-    body {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
     .interfaceBar {
         display: flex;
         gap: 0px;
@@ -1108,6 +1102,7 @@ textarea {
         flex: 1 0 auto;
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 }
 
