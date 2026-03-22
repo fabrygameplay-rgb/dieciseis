@@ -1246,9 +1246,9 @@ textarea {
     }
 }
 
-/* Tablet landscape 
+/* Tablet landscape */
 
-@media (min-width: 769px) and (max-width: 1230px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
