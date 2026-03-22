@@ -331,7 +331,7 @@ const linkGBC = document.querySelector('a[href="indexGameBoyColor.html"]');
     function ajustarTexto() {
         if (window.matchMedia("(max-width: 480px)").matches) {
             linkGBC.textContent = "GB Color";
-        } else if (window.matchMedia("(min-width: 481px) and (max-width: 1024px").matches) {
+        } else if (window.matchMedia("(min-width: 481px) and (max-width: 1024px)").matches) {
             linkGBC.textContent = "GB Color";
         } else {
             linkGBC.textContent = "Game Boy Color";
@@ -790,3 +790,17 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+function detectarTabletLandscape() {
+    const esTablet = window.innerWidth >= 768 && window.innerWidth <= 1200;
+    const esLandscape = window.innerWidth > window.innerHeight;
+
+    if (esTablet && esLandscape) {
+        document.body.classList.add("tablet-landscape");
+    } else {
+        document.body.classList.remove("tablet-landscape");
+    }
+}
+
+detectarTabletLandscape();
+window.addEventListener("resize", detectarTabletLandscape);
