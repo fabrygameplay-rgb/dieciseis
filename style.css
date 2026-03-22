@@ -1,4 +1,4 @@
- * {
+/* * {
     box-sizing: border-box;
 }
 
@@ -452,7 +452,7 @@ textarea {
     width: 200px;
 }
 
-/*celular portrait */
+/*celular portrait
 
 @media (max-width: 480px) and (orientation: portrait) {
 
@@ -705,7 +705,7 @@ textarea {
     }
 }
 
-/* celular landscape */
+/* celular landscape
 
 @media (max-width: 767px) and (orientation: landscape) {
 
@@ -1001,7 +1001,7 @@ textarea {
 
 }
 
-/*tablet portrait */
+/*tablet portrait
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
@@ -1246,9 +1246,9 @@ textarea {
     }
 }
 
-/* Tablet landscape */
+/* Tablet landscape
 
-@media (max-width: 767px) and (orientation: landscape) {
+@media (max-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
@@ -1412,3 +1412,241 @@ textarea {
 }
 
 /*
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- BASE (DESKTOP FIRST) ---------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.title1 {
+    padding: 10px 0;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+
+/* NAV */
+.interfaceBar {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    overflow-x: auto;
+}
+
+.interfaceBar a,
+.interfaceBar p,
+.interfaceBar button {
+    padding: 15px 20px;
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+
+/* SEARCH */
+.find {
+    position: relative;
+    margin: 0 20px;
+}
+
+.find input {
+    position: absolute;
+    left: -20px;
+    width: 120px;
+}
+
+/* EXPLORE */
+#exploreGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#exploreFlex1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+#exploreFlex1 h2 {
+    color: peru;
+    text-decoration: underline;
+}
+
+#exploreFlex2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.exploreFlex3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.exploreFlex3 img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+/* GAMES */
+.gridGames1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+
+.game {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+}
+
+/* OVERLAY */
+.sinopsisOverlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+.game.showDescription img {
+    opacity: 0;
+}
+
+.game.showDescription .sinopsisOverlay {
+    opacity: 1;
+}
+
+/* SECTION */
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    color: teal;
+}
+
+/* FORMS */
+#formContent1,
+#formContent2 {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border: double 5px gray;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 15px;
+    background: peru;
+    cursor: pointer;
+}
+
+/* LAST SECTION */
+#lastSectionId {
+    width: 90%;
+    margin: 40px auto;
+}
+
+#lastSectionId section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: cornsilk;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: silver;
+    padding: 10px;
+}
+
+/* ---------------- MOBILE (<= 480px) ---------------- */
+
+@media (max-width: 480px) {
+
+    .interfaceBar {
+        font-size: 13px;
+    }
+
+    #exploreGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .exploreFlex3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gridGames1 {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+/* ---------------- TABLET (481px - 1024px) ---------------- */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+    #exploreGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .exploreFlex3 {
+        flex-wrap: wrap;
+    }
+
+    .gridGames1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ---------------- LARGE (>= 1025px) ---------------- */
+
+@media (min-width: 1025px) {
+
+    .gridGames1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
