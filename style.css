@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
@@ -452,7 +452,467 @@ textarea {
     width: 200px;
 }
 
-/*celular portrait
+/* Desktops */
+
+@media (min-width: 1200px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .title1 {
+        padding: 10px 0;
+        background-color: red;
+        border: solid 2px black;
+        border-radius: 6px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    #exploreGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
+    }
+
+    #exploreFlex1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        padding-left: 20px;
+        text-align: justify;
+        width: 500px;
+        height: 300px;
+    }
+
+    #exploreFlex1 p:nth-child(2) {
+        padding-bottom: 6px;
+    }
+
+    #exploreFlex1 p:nth-child(5) {
+        padding-bottom: 0px;
+    }
+
+    #exploreFlex1 p:nth-child(8) {
+        padding-bottom: 0px;
+    }
+
+    #exploreFlex1 p:nth-child(11) {
+        padding-bottom: 0px;
+    }
+
+    #exploreFlex1 p:nth-child(14) {
+        padding-bottom: 0px;
+    }
+
+    #exploreFlex1 p:nth-child(17) {
+        padding-bottom: 0px;
+    }
+
+    #exploreFlex1 h2 {
+        color: peru;
+        text-decoration: underline;
+    }
+
+    #exploreFlex2 {
+        margin-top: 20px;
+    }
+
+    .exploreFlex3 {
+        display: flex;
+        gap: 30px;
+    }
+
+    #img1 {
+        padding-top: 20px; 
+        width: 300px;
+        height: 280px;
+        margin-bottom: 20.5px;
+    }
+
+    #img2 {
+        padding-top: 20px;
+        margin-bottom: 36.5px;
+        width: 300px;
+        height: 270px;
+    }
+
+    #img3 {
+        padding-top: 40px;
+        margin-bottom: 59.5px;
+        width: 300px;
+        height: 290px;
+    }
+
+    #img4 {
+        padding-top: 20px;
+        margin-bottom: 30.5px;
+        width: 300px;
+        height: 295px;
+    }
+
+    #img5 {
+        height: 260px;
+        padding: 10px 0px 20px 0px;
+        margin-bottom: 48.5px;
+        width: 300px;
+        height: 260px;
+    }
+
+    #img6 {
+        width: 300px;
+        height: 290px;
+        padding: 20px 0px 10px 0px;
+        }
+
+    .interfaceBar {
+        display: flex;
+        gap: 0px;
+        background-color: bisque;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .interfaceBar button {
+        background-color: bisque;
+        border: 0px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    .find {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 30px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .find input {
+        position: absolute;
+        top: 0;
+        left: -30px;
+        width: 100px;
+        height: 20px;
+    }
+
+    .interfaceBar a {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 15px 28px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .interfaceBar p {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0px 28px;
+    }
+
+    .interfaceBar a:hover {
+        cursor: pointer;
+    }
+
+    .gridGames1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: solid black 1px;        
+        margin: 10px 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: cornsilk;
+        gap: 30px; 
+    }
+
+    .game {
+        color:brown;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+
+        section {
+        display: flex;
+        gap: 470px;
+        padding-left: 10px;
+    }
+
+        ul {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:teal;
+        font-size: 16px;
+    }
+
+    li {
+        margin: 0 0 8px 0; 
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    footer {
+        text-align: center;
+        background-color:silver;
+        color: black;
+        font-weight: bold;
+        padding: 1px 0;
+    }
+
+    .buttons {
+        margin-bottom: 15px;
+    }
+
+    button {
+        border-radius: 8px;
+        border: double yellowgreen 1px;
+        padding: 2px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .btn1 {
+        padding: 3px 15px;
+    }
+
+    .btn1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .game {
+        position: relative;
+    }
+
+    .sinopsisOverlay {
+
+        position: absolute;
+        top: 2.4%;
+        left: 7%;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0,0,0,0.85);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        padding: 5px 15px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .game.showDescription img {
+        opacity: 0;
+    }
+
+    .game.showDescription .sinopsisOverlay {
+        opacity: 1;
+    }
+
+    .alert {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #222;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: translateY(-10px);
+        z-index: 9999;
+
+    }
+
+    .alert.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    #formContent1,
+    #formContent2 {
+
+        width: 340px;
+        margin: 40px auto;
+        padding: 18px;
+        background-color: #f0f0f0;
+        border: double 5px #808080;
+        border-radius: 1px;
+        font-family: "MS Sans Serif", Tahoma, Geneva, sans-serif;
+    }
+
+
+    #formContent1 h1,
+    #formContent2 h1 {
+
+        background-color: peru;
+        padding: 6px;
+        margin: -18px -18px 15px -18px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .FormSubTitles {
+
+        font-size: 13px;  
+        margin-top: 12px;
+        margin-bottom: 3px;
+        color: black;
+    }
+
+    #formContent1 input,
+    #formContent2 input {
+
+        width: 100%;
+        padding: 4px;
+        font-size: 13px;
+        background-color: white;
+    }
+
+    #formContent1 input:focus,
+    #formContent2 input:focus {
+        outline: 1px dotted black;
+    }
+
+    .submit {
+
+        width: 100%;
+        margin-top: 18px;
+        padding: 5px;
+        font-size: 13px;
+        background-color:peru;
+        border-top: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+        border-right: 2px solid #404040;
+        border-bottom: 2px solid #404040;
+        cursor: pointer;
+    }
+
+    .submit:active {
+
+        border-top: 2px solid #404040;
+        border-left: 2px solid #404040;
+        border-right: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    #lastSectionId {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    #lastSectionId section {
+        display: block;
+        text-align: justify;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: cornsilk;
+        border: solid 1px silver;
+        border-radius: 8px;
+        width: 100%;
+        padding: 20px 25px;
+        margin-bottom: 35px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    #lastSectionId section:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    #lastSectionId h2 {
+        color: seagreen;
+        padding-bottom: 8px;
+        border-bottom: solid 2px seagreen;
+        margin-bottom: 15px;
+    }
+
+    #lastSectionId p {
+        padding: 8px 5px;
+        line-height: 1.5;
+    }
+
+    #lastSectionId ul {
+        margin-left: 20px;
+        color: teal;
+    }
+
+    #lastSectionId li {
+        margin-bottom: 8px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 200px;
+        padding: 8px;
+        box-sizing: border-box;
+        vertical-align: top;
+        resize: none;
+    }
+
+    .complaint-form {
+        display: flex;
+        justify-content: space-between;  
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-form-left label {
+        margin-top: 10px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        width: 200px;
+    }
+
+    .complaint-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .complaint-left label {
+        margin-top: 10px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .complaint-left input, 
+    .complaint-left textarea,
+    .complaint-left select,
+    .complaint-left button {
+        width: 200px;
+    }
+
+}
+
+/*celular portrait */
 
 @media (max-width: 480px) and (orientation: portrait) {
 
@@ -705,7 +1165,7 @@ textarea {
     }
 }
 
-/* celular landscape
+/* celular landscape */
 
 @media (max-width: 767px) and (orientation: landscape) {
 
@@ -1001,7 +1461,7 @@ textarea {
 
 }
 
-/*tablet portrait
+/*tablet portrait */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
@@ -1246,7 +1706,7 @@ textarea {
     }
 }
 
-/* Tablet landscape
+/* Tablet landscape */
 
 @media (max-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
@@ -1407,246 +1867,6 @@ textarea {
         margin: 10px;
         padding: 10px 30px;
         justify-content: center;
-    }
-
-}
-
-/*
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* ---------------- BASE (DESKTOP FIRST) ---------------- */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* HEADER */
-.title1 {
-    padding: 10px 0;
-    background-color: red;
-    border: solid 2px black;
-    border-radius: 6px;
-    color: white;
-    text-align: center;
-}
-
-/* NAV */
-.interfaceBar {
-    display: flex;
-    align-items: center;
-    background-color: bisque;
-    overflow-x: auto;
-}
-
-.interfaceBar a,
-.interfaceBar p,
-.interfaceBar button {
-    padding: 15px 20px;
-    font-size: 18px;
-    background: none;
-    border: none;
-}
-
-/* SEARCH */
-.find {
-    position: relative;
-    margin: 0 20px;
-}
-
-.find input {
-    position: absolute;
-    left: -20px;
-    width: 120px;
-}
-
-/* EXPLORE */
-#exploreGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-#exploreFlex1 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: justify;
-}
-
-#exploreFlex1 h2 {
-    color: peru;
-    text-decoration: underline;
-}
-
-#exploreFlex2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.exploreFlex3 {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.exploreFlex3 img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-}
-
-/* GAMES */
-.gridGames1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin: 10px;
-    padding: 10px;
-    background-color: cornsilk;
-    border: 1px solid black;
-}
-
-.game {
-    position: relative;
-    text-align: center;
-    font-weight: bold;
-    color: brown;
-}
-
-.game img {
-    width: 100%;
-    height: auto;
-}
-
-/* OVERLAY */
-.sinopsisOverlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.85);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    opacity: 0;
-    transition: 0.3s;
-    overflow-y: auto;
-}
-
-.game.showDescription img {
-    opacity: 0;
-}
-
-.game.showDescription .sinopsisOverlay {
-    opacity: 1;
-}
-
-/* SECTION */
-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-ul {
-    color: teal;
-}
-
-/* FORMS */
-#formContent1,
-#formContent2 {
-    max-width: 350px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #f0f0f0;
-    border: double 5px gray;
-}
-
-.submit {
-    width: 100%;
-    margin-top: 15px;
-    background: peru;
-    cursor: pointer;
-}
-
-/* LAST SECTION */
-#lastSectionId {
-    width: 90%;
-    margin: 40px auto;
-}
-
-#lastSectionId section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background: cornsilk;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    background: silver;
-    padding: 10px;
-}
-
-/* ---------------- MOBILE (<= 480px) ---------------- */
-
-@media (max-width: 480px) {
-
-    .interfaceBar {
-        font-size: 13px;
-    }
-
-    #exploreGrid {
-        grid-template-columns: 1fr;
-    }
-
-    .exploreFlex3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .gridGames1 {
-        grid-template-columns: 1fr;
-    }
-
-    section {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-}
-
-/* ---------------- TABLET (481px - 1024px) ---------------- */
-
-@media (min-width: 481px) and (max-width: 1024px) {
-
-    #exploreGrid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .exploreFlex3 {
-        flex-wrap: wrap;
-    }
-
-    .gridGames1 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-/* ---------------- LARGE (>= 1025px) ---------------- */
-
-@media (min-width: 1025px) {
-
-    .gridGames1 {
-        grid-template-columns: repeat(3, 1fr);
     }
 
 }
