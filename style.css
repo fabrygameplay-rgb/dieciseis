@@ -1248,7 +1248,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (max-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+@media (max-width: 481px) and (max-height: 1000px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
