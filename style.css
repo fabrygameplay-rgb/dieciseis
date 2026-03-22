@@ -454,7 +454,7 @@ textarea {
 
 /*celular portrait */
 
-@media (max-width: 480px) and (orientation: portrait) {
+@media (max-width: 480px) {
 
     .interfaceBar {
         display: flex;
@@ -707,7 +707,7 @@ textarea {
 
 /* celular landscape */
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 900px) {
 
     .interfaceBar {
         display: flex;
@@ -1003,7 +1003,7 @@ textarea {
 
 /*tablet portrait */
 
-@media (min-width: 480px) and (max-width: 800px) and (orientation: portrait) {
+@media (min-width: 481px) and (max-width: 800px) {
 
     body {
         display: flex;
