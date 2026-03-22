@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -451,6 +451,8 @@ textarea {
 .complaint-left button {
     width: 200px;
 }
+
+/*
 
 /* Desktops */
 
