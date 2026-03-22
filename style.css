@@ -940,20 +940,20 @@ textarea {
     }
 
     #lastSectionId h2 {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     #lastSectionId p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     #support h3 {
-        font-size: 13px;
+        font-size: 11px;
         padding-left: 5px;
     }
 
     #support p {
-        font-size: 10px;
+        font-size: 8px;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 0px;
@@ -986,7 +986,7 @@ textarea {
     }
 
     #complaints p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     #complaints .complaint-form-left {
@@ -996,7 +996,7 @@ textarea {
     }
 
     #complaints .complaint-form-left label {
-        font-size: 13px;
+        font-size: 8px;
     }
 
 }
