@@ -462,7 +462,7 @@ textarea {
 
 /*celular portrait */
 
-@media (max-width: 480px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-height: 480px) and (orientation: portrait) {
 
     .interfaceBar {
         display: flex;
@@ -715,7 +715,7 @@ textarea {
 
 /* celular landscape */
 
-@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+@media (min-width: 480px) and (max-height: 320px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
@@ -938,7 +938,7 @@ textarea {
 
 /*tablet portrait */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
 
     body {
         display: flex;
@@ -1114,7 +1114,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 1025px) and (max-width: 1300px) and (orientation: landscape) {
+@media (min-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
