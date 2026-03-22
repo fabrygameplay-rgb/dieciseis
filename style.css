@@ -1425,7 +1425,7 @@ textarea {
 
 /* celular landscape */
 
-@media (max-width: 480px) and (orientation: landscape) {
+@media (min-width: 480px) and (min-width: 960px) and (orientation: landscape) {
     
     .title1 {
         padding: 10px 0;
