@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
 }
 
@@ -1248,7 +1248,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (max-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
@@ -1410,3 +1410,5 @@ textarea {
     }
 
 }
+
+/*
