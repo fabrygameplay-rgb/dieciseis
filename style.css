@@ -707,7 +707,7 @@ textarea {
 
 /* celular landscape */
 
-@media (max-width: 1200px) and (orientation: landscape) {
+@media (max-width: 1400px) and (orientation: landscape) {
 
     .interfaceBar {
         display: flex;
