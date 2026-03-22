@@ -1218,6 +1218,7 @@ textarea {
     .values {
         margin-left: 0;
         padding-left: 0;
+        font-size: 11px;
     }
 
     ol {
@@ -1247,7 +1248,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 769px) and (max-width: 1200px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 980px) and (orientation: landscape) {
 
     #exploreGrid {
         display: grid;
