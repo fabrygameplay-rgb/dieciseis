@@ -926,6 +926,22 @@ textarea {
         padding: 10px 4px 4px 4px; 
     }
 
+    .contact-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #complaints .complaint-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #complaints .complaint-form-left label {
+        font-size: 13px;
+    }
+
 }
 
 /*tablet portrait */
@@ -1101,6 +1117,22 @@ textarea {
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+
+    .contact-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #complaints .complaint-form-left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #complaints .complaint-form-left label {
+        font-size: 13px;
     }
 }
 
