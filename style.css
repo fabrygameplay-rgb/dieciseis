@@ -926,6 +926,58 @@ textarea {
         padding: 10px 4px 4px 4px; 
     }
 
+        #lastSectionId {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #lastSectionId h2 {
+        font-size: 15px;
+    }
+
+    #lastSectionId p {
+        font-size: 12px;
+    }
+
+    #support h3 {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    #support p {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-container ul li {
+        justify-content: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .values {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    ol {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    ol li {
+        font-size: 12px;
+    }
+
     .contact-form-left {
         display: flex;
         flex-direction: column;
@@ -1117,6 +1169,58 @@ textarea {
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+
+        #lastSectionId {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #lastSectionId h2 {
+        font-size: 15px;
+    }
+
+    #lastSectionId p {
+        font-size: 12px;
+    }
+
+    #support h3 {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    #support p {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-container ul li {
+        justify-content: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .values {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    ol {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    ol li {
+        font-size: 12px;
     }
 
     .contact-form-left {
