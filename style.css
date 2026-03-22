@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-@media (min-width:1231px) and (orientation: landscape) {
-
 .title1 {
     padding: 10px 0;
     background-color: red;
@@ -452,8 +450,6 @@ textarea {
 .complaint-left select,
 .complaint-left button {
     width: 200px;
-}
-
 }
 
 /*celular portrait */
