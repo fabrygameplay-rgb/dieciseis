@@ -1274,6 +1274,10 @@ textarea {
         font-family: "MS Sans Serif", Tahoma, Geneva, sans-serif;
     }
 
+    #formContent1 {
+        margin-left:10px;
+    }
+
     #formContent1 h1,
     #formContent2 h1 {
         background-color: peru;
@@ -1758,7 +1762,7 @@ textarea {
         font-size: 8px;
     }
 
-        #formContent1,
+    #formContent1,
     #formContent2 {
         width: 340px;
         margin: 40px auto;
@@ -1914,6 +1918,14 @@ textarea {
     .complaint-left select,
     .complaint-left button {
         width: 200px;
+    }
+
+    footer {
+        text-align: center;
+        background-color:silver;
+        color: black;
+        font-weight: bold;
+        padding: 1px 0;
     }
 
 }
