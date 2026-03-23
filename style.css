@@ -45,6 +45,10 @@
     margin-right: 10px;
 }
 
+.exploreFlex3:nth-of-type(1) {
+    margin-top: 78px;
+}
+
 .exploreFlex3 {
     display: flex;
     flex-direction: row;
@@ -786,34 +790,6 @@ textarea {
         overflow: hidden;
         padding: 0;
         margin: 0;
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(1) {
-    transform: translateY(-10px);
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(2) {
-        transform: translateY(-60px);
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(3) {
-        transform: translateY(-90px);
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(4) {
-        transform: translateY(-80px);
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(5) {
-        transform: translateY(-100px);
-    }
-
-    #exploreFlex2 .exploreFlex3:nth-of-type(6) {
-        transform: translateY(-140px);
-    }
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        all: unset;
     }
 
     #exploreFlex1 hr {
