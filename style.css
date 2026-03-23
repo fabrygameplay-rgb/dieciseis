@@ -687,6 +687,46 @@ textarea {
     .interfaceBar a:hover {
         cursor: pointer;
     }
+    
+    .exploreRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .left h2 {
+        color: peru;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+
+    .left p {
+        font-size: 18px;
+        text-align: justify;
+        width: 450px;
+        height: 300px;
+        padding-left: 10px;
+    }
+
+    .left hr {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        width: 280px;
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .exploreFlex3 {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 300px;
+    }
 
     #exploreGrid {
         display: grid;
@@ -1042,6 +1082,46 @@ textarea {
         margin: 0;
     }
 
+    .exploreRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .left h2 {
+        color: peru;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+
+    .left p {
+        font-size: 18px;
+        text-align: justify;
+        width: 450px;
+        height: 300px;
+        padding-left: 10px;
+    }
+
+    .left hr {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        width: 280px;
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .exploreFlex3 {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 300px;
+    }
+
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
         transform: translateY(60px);
     }
@@ -1123,7 +1203,7 @@ textarea {
         height: auto;
     }
 
-        #lastSectionId {
+    #lastSectionId {
         display: flex;
         flex-wrap: wrap;
         padding-left: 10px;
@@ -1257,6 +1337,46 @@ textarea {
         padding: 0;
         margin: 0;
         margin-right: 30px;
+    }
+
+        .exploreRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .left h2 {
+        color: peru;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+
+    .left p {
+        font-size: 18px;
+        text-align: justify;
+        width: 450px;
+        height: 300px;
+        padding-left: 10px;
+    }
+
+    .left hr {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        width: 280px;
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .exploreFlex3 {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 300px;
     }
 
     #exploreFlex2 .exploreFlex3:nth-of-type(1) {
