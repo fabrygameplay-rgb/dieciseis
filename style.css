@@ -724,7 +724,6 @@ textarea {
     .right {
         display: flex;
         flex-direction: row;
-        justify-items: center;
     }
 
     .right hr {
@@ -738,6 +737,14 @@ textarea {
     .right img, #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 150px;
         height: 170px;
+    }
+
+    .exploreFlex3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
     }
 
     .gridGames1 {
