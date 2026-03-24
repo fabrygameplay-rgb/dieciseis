@@ -745,8 +745,12 @@ textarea {
         height: 170px;
     }
 
-    #exploreFlex2 > hr {
+    hr {
         display: none;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .gridGames1 {
