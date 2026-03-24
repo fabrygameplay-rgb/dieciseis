@@ -745,6 +745,10 @@ textarea {
         height: 170px;
     }
 
+    #exploreFlex2 > hr {
+        display: none;
+    }
+
     .gridGames1 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
