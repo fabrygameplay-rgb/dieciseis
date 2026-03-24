@@ -724,7 +724,7 @@ textarea {
     .right {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-items: center;
     }
 
     .right hr {
