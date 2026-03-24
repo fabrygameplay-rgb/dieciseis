@@ -701,11 +701,6 @@ textarea {
         cursor: pointer;
     }
 
-    .exploreRow {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     #exploreFlex1 h2 {
         color: peru;
         text-decoration: underline;
@@ -743,14 +738,6 @@ textarea {
     .right img, #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 150px;
         height: 170px;
-    }
-
-    hr {
-        display: none;
-        width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;
     }
 
     .gridGames1 {
