@@ -701,6 +701,12 @@ textarea {
         cursor: pointer;
     }
 
+    .exploreRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
     #exploreFlex1 h2 {
         color: peru;
         text-decoration: underline;
