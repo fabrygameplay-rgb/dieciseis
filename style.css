@@ -1145,7 +1145,7 @@ textarea {
         padding-left: 10px;
     }
 
-    .left hr {
+    .right hr, .left hr {
         display: 0;
         padding: 0;
         margin: 0;
