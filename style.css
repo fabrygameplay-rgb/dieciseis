@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 1300px) and (orientation: landscape) {
+@media (min-width: 1367px) and (orientation: landscape) {
 
     .title1 {
         padding: 10px 0;
