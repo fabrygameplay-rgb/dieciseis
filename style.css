@@ -1060,7 +1060,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+@media (min-width: 1024px) {
 
     .exploreRow {
         display: grid;
