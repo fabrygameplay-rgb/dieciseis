@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 1367px) and (orientation: landscape) {
+/* Desktop */
+
+@media (min-width: 1366px) and (orientation: landscape) {
 
     .title1 {
         padding: 10px 0;
@@ -1127,7 +1129,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
 
     .exploreRow {
         display: grid;
