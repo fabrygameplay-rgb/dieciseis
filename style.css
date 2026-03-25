@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-/* Desktop */
-
-@media (min-width: 1366px) and (orientation: landscape) {
+@media (min-width: 1300px) and (orientation: landscape) {
 
     .title1 {
         padding: 10px 0;
@@ -26,10 +24,6 @@
         color: peru;
         text-decoration: underline;
         padding-left: 10px;
-    }
-
-    .left {
-        border-bottom: solid black 1px;
     }
 
     .left p {
@@ -1129,7 +1123,7 @@ textarea {
 
 /* Tablet landscape */
 
-@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
 
     .exploreRow {
         display: grid;
