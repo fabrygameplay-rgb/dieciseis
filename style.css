@@ -888,7 +888,7 @@ textarea {
 
 /*tablet portrait */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 901px) and (max-height: 1280px) and (orientation: portrait) {
 
     body {
         display: flex;
@@ -902,122 +902,89 @@ textarea {
         background-color: bisque;
         align-items: center;
         overflow-y: auto;
-        font-size: 16px;
+        font-size: 18px;
         height: 80px; 
     }
 
-    #exploreGrid {
-        display: grid;
-        grid-template-columns: 330px auto;
-        gap: 0px; 
-    }
-
-    #exploreFlex1 {
+    .interfaceBar {
         display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-        gap: 10px; 
-        height: auto;
+        gap: 0px;
+        background-color: bisque;
+        align-items: center;
+        font-size: 16px;
+        overflow-y: auto;
     }
 
-    #exploreFlex1 hr {
-        width: 100vw;
-        max-width: 100vw;
+    .interfaceBar button {
+        background-color: bisque;
+        border: 0px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    .find {
         position: relative;
-        left: 0;            
-        max-width: calc(100vw - 40px);
+        margin-left: 20px;
+        margin-right: 30px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .interfaceBar p {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0px 12px;
+    }
+
+    .interfaceBar a {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px 12px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .interfaceBar a:hover {
+        cursor: pointer;
     }
 
     #exploreFlex1 h2 {
-        font-size: 18px;
-        width: 330px;
-    }
-
+        font-size: 20px;
+        color: peru;
+        text-decoration: underline;
+    } 
+    
     #exploreFlex1 p {
-        font-size: 16px;
-        width: 330px;
+        font-size: 17px;
+        width: auto;
+        text-align: justify;
         height: auto;
     }
 
-    #exploreFlex2 hr {
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
+    #exploreFlex1 img, #img1, #img2, #img3, #img4, #img5, #img6 {
+        width: 220px;
+        height: 240px;
     }
 
-    #exploreFlex2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .exploreFlex3 {
+    .right {
         display: flex;
         flex-direction: row;
-        align-items: center;      
         justify-content: center;
-        gap: 10px;
-        width: 400px;
-        height: 300px;
-        overflow: hidden;
-        padding: 0;
-        margin: 0;
     }
 
-    .exploreFlex3 img {
-        width: 140px;
-        height: 180px;
+    .right hr {
+        display: flex;
+        flex-direction: column;
         margin: 0;
         padding: 0;
-    }
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 140px;
-        height: 180px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .exploreRow {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: start;
-    }
-
-    .left h2 {
-        color: peru;
-        text-decoration: underline;
-        padding-left: 10px;
-    }
-
-    .left p {
-        font-size: 18px;
-        text-align: justify;
-        width: 450px;
-        height: 300px;
-        padding-left: 10px;
+        width: 100%;
+        height: 1px;
     }
 
     .left hr {
-        padding: 0;
-        margin: 0;
         width: 100%;
-        max-width: 450px;
     }
 
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 280px;
-        height: 300px;
-        margin-right: 10px;
-    }
-
-    .exploreFlex3 {
-        display: flex;
-        flex-direction: row;
-        width: 300px;
-        height: 300px;
+    .left hr {
+        display: none;
     }
 
     .gridGames1 {
