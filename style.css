@@ -1122,7 +1122,7 @@ textarea {
     .exploreRow {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: start;
+        align-items: center;
     }
 
     .left h2 {
@@ -1135,7 +1135,7 @@ textarea {
         font-size: 18px;
         text-align: justify;
         width: 450px;
-        height: 300px;
+        height: auto;
         padding-left: 10px;
     }
 
