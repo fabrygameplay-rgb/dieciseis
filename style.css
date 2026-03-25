@@ -704,6 +704,13 @@ textarea {
     .exploreRow {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        align-items: center;
+        min-width: 0;
+    }
+
+    .left, .right {
+        min-width: 0;
     }
 
     #exploreFlex1 h2 {
