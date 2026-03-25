@@ -26,6 +26,10 @@
         padding-left: 10px;
     }
 
+    .left {
+        border-bottom: solid black 1px;
+    }
+
     .left p {
         font-size: 18px;
         text-align: justify;
@@ -34,11 +38,16 @@
         padding-left: 10px;
     }
 
-    .left hr {
+    .exploreFlex3 {
+        border-bottom: solid black 1px;
+    }
+
+    .right hr, .left hr {
+        display: none;
         padding: 0;
         margin: 0;
-        width: 100%;
-        max-width: 450px;
+        width: 0;
+        height: 0;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
